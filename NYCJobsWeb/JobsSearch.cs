@@ -15,7 +15,7 @@ namespace NYCJobsWeb
         private static string IndexName = "nycjobs";
         private static SearchIndexClient _indexZipClient;
         private static string IndexZipCodes = "zipcodes";
-
+        
         public static string errorMessage;
 
         static JobsSearch()
