@@ -1,0 +1,106 @@
+{
+	
+	"fields": [{
+		"name": "zip_code",
+		"type": "Edm.String",
+		"searchable": true,
+		"filterable": true,
+		"retrievable": true,
+		"sortable": true,
+		"facetable": true,
+		"key": true,
+		
+		
+		"analyzer": null
+	},
+	{
+		"name": "country",
+		"type": "Edm.String",
+		"searchable": true,
+		"filterable": true,
+		"retrievable": true,
+		"sortable": true,
+		"facetable": true,
+		"key": false,
+		
+		
+		"analyzer": null
+	},
+	{
+		"name": "city",
+		"type": "Edm.String",
+		"searchable": true,
+		"filterable": true,
+		"retrievable": true,
+		"sortable": true,
+		"facetable": true,
+		"key": false,
+		
+		
+		"analyzer": null
+	},
+	{
+		"name": "state",
+		"type": "Edm.String",
+		"searchable": true,
+		"filterable": true,
+		"retrievable": true,
+		"sortable": true,
+		"facetable": true,
+		"key": false,
+		
+		
+		"analyzer": null
+	},
+	{
+		"name": "state_ab",
+		"type": "Edm.String",
+		"searchable": true,
+		"filterable": true,
+		"retrievable": true,
+		"sortable": true,
+		"facetable": true,
+		"key": false,
+		
+		
+		"analyzer": null
+	},
+	{
+		"name": "county",
+		"type": "Edm.String",
+		"searchable": true,
+		"filterable": true,
+		"retrievable": true,
+		"sortable": true,
+		"facetable": true,
+		"key": false,
+		
+		
+		"analyzer": null
+	},
+	{
+		"name": "geo_location",
+		"type": "Edm.GeographyPoint",
+		"searchable": false,
+		"filterable": true,
+		"retrievable": true,
+		"sortable": true,
+		"facetable": false,
+		"key": false,
+		
+		
+		"analyzer": null
+	}],
+	"scoringProfiles": [],
+	"defaultScoringProfile": null,
+	"corsOptions": null,
+	"suggesters": [{
+		"name": "sg",
+		"searchMode": "analyzingInfixMatching",
+		"sourceFields": ["zip_code",
+		"country",
+		"state",
+		"state_ab",
+		"county"]
+	}]
+}

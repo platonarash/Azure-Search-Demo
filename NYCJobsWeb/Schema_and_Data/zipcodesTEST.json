@@ -1,0 +1,29 @@
+{
+"value": [{
+		"zip_code": "61754",
+		"country": "US",
+		"city": "Mc Lean",
+		"state": "Illinois",
+		"state_ab": "IL",
+		"county": "McLean",
+		"geo_location": {
+			"type": "Point",
+			"coordinates": [40.3282,
+			-89.1645]
+		}
+	},
+	{
+		"zip_code": "46171",
+		"country": "US",
+		"city": "Reelsville",
+		"state": "Indiana",
+		"state_ab": "IN",
+		"county": "Putnam",
+		"geo_location": {
+			"type": "Point",
+			"coordinates": [39.5464,
+			-86.95]
+		}
+	}
+	]
+}
