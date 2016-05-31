@@ -1,4 +1,4 @@
-﻿using Newtonsoft.Json;
+﻿    using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
@@ -82,6 +82,7 @@ namespace LoaderConsole
             }
 
 
+            string path2SchemaData = @"C:\Users\arrass\OneDrive - Microsoft\Tech\Demos\KÖR 2 - Azure Search Suggestions\search-dotnet-asp-net-mvc-jobs-master\NYCJobsWeb\Schema_and_Data";
 
 
             //*********** CREATE  INDEXS ****************

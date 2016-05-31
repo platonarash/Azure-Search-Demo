@@ -9,6 +9,7 @@ using System.Web.Mvc;
 
 namespace NYCJobsWeb.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         private JobsSearch _jobsSearch = new JobsSearch();
